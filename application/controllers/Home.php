@@ -20,8 +20,13 @@ class Home extends CI_Controller
 
     public function index()
     {
-        $dt = $this->home_m->getUsers();
+//        $dt = $this->home_m->getUsers();
         $this->load->view('index.php');
+    }
+
+    public function login()
+    {
+        echo 'login';
     }
     
 }

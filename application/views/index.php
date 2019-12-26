@@ -1,3 +1,4 @@
+<?php //echo base_url('application/views/'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,11 +13,11 @@
     <title>Amado - Furniture Ecommerce Template | Home</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="<?php echo base_url('application/views/'); ?>img/core-img/favicon.ico">
 
     <!-- Core Style CSS -->
-    <link rel="stylesheet" href="css/core-style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo base_url('application/views/'); ?>css/core-style.css">
+    <link rel="stylesheet" href="<?php echo base_url('application/views/'); ?>style.css">
 
 </head>
 
@@ -32,7 +33,7 @@
                     <div class="search-content">
                         <form action="#" method="get">
                             <input type="search" name="search" id="search" placeholder="Type your keyword...">
-                            <button type="submit"><img src="img/core-img/search.png" alt=""></button>
+                            <button type="submit"><img src="<?php echo base_url('application/views/'); ?><?php echo base_url('application/views/'); ?>img/core-img/search.png" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -48,7 +49,7 @@
         <div class="mobile-nav">
             <!-- Navbar Brand -->
             <div class="amado-navbar-brand">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="index.html"><img src="<?php echo base_url('application/views/'); ?>img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Navbar Toggler -->
             <div class="amado-navbar-toggler">
@@ -64,7 +65,7 @@
             </div>
             <!-- Logo -->
             <div class="logo">
-                <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a href="index.html"><img src="<?php echo base_url('application/views/'); ?>img/core-img/logo.png" alt=""></a>
             </div>
             <!-- Amado Nav -->
             <nav class="amado-nav">
@@ -83,9 +84,9 @@
             </div>
             <!-- Cart Menu -->
             <div class="cart-fav-search mb-100">
-                <a href="cart.html" class="cart-nav"><img src="img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
-                <a href="#" class="fav-nav"><img src="img/core-img/favorites.png" alt=""> Favourite</a>
-                <a href="#" class="search-nav"><img src="img/core-img/search.png" alt=""> Search</a>
+                <a href="cart.html" class="cart-nav"><img src="<?php echo base_url('application/views/'); ?>img/core-img/cart.png" alt=""> Cart <span>(0)</span></a>
+                <a href="#" class="fav-nav"><img src="<?php echo base_url('application/views/'); ?>img/core-img/favorites.png" alt=""> Favourite</a>
+                <a href="#" class="search-nav"><img src="<?php echo base_url('application/views/'); ?>img/core-img/search.png" alt=""> Search</a>
             </div>
             <!-- Social Button -->
             <div class="social-info d-flex justify-content-between">
@@ -104,7 +105,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/1.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/1.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -117,7 +118,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/2.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/2.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -130,7 +131,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/3.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/3.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -143,7 +144,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/4.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/4.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -156,7 +157,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/5.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/5.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -169,7 +170,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/6.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/6.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -182,7 +183,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/7.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/7.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -195,7 +196,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/8.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/8.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -208,7 +209,7 @@
                 <!-- Single Catagory -->
                 <div class="single-products-catagory clearfix">
                     <a href="shop.html">
-                        <img src="img/bg-img/9.jpg" alt="">
+                        <img src="<?php echo base_url('application/views/'); ?>img/bg-img/9.jpg" alt="">
                         <!-- Hover Content -->
                         <div class="hover-content">
                             <div class="line"></div>
@@ -257,7 +258,7 @@
                     <div class="single_widget_area">
                         <!-- Logo -->
                         <div class="footer-logo mr-50">
-                            <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                            <a href="index.html"><img src="<?php echo base_url('application/views/'); ?>img/core-img/logo2.png" alt=""></a>
                         </div>
                         <!-- Copywrite Text -->
                         <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -301,15 +302,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ##### Footer Area End ##### -->
 
     <!-- ##### jQuery (Necessary for All JavaScript Plugins) ##### -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="<?php echo base_url('application/views/'); ?>js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="<?php echo base_url('application/views/'); ?>js/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('application/views/'); ?>js/bootstrap.min.js"></script>
     <!-- Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="<?php echo base_url('application/views/'); ?>js/plugins.js"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="<?php echo base_url('application/views/'); ?>js/active.js"></script>
 
 </body>
 
