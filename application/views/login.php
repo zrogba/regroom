@@ -13,7 +13,7 @@
                         <form class="navbar-form"  action="<?php echo base_url().'login' ?>" method="post">
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="enter email" required autofocus value="<?php echo $email??null; ?>">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required autofocus value="<?php echo $email??null; ?>">
                                 <?php if(!empty($emailErr)){
                                     echo '<span style="font-size: 12px;color: red">Invalid email address</span>';
                                 } ?>
@@ -21,7 +21,7 @@
 
                             <div class="form-group">
                                 <label for="password">Password:</label>
-                                <input type="password" class="form-control" id="password" name="password" required placeholder="enter password">
+                                <input type="password" class="form-control" id="password" name="password" required placeholder="Enter password">
                                 <?php if(!empty($passwordErr)){
                                     echo '<span style="font-size: 12px;color: red">Password is required</span>';
                                 } ?>
