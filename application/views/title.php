@@ -1,8 +1,7 @@
 <?php
 
-echo empty($title) ?
-    '    <!-- Title  -->
-    <title>Amado - Furniture Ecommerce Template | Home</title>'
-    : 'Amado' ;
+echo '<title>';
+echo empty($title) ? 'Amado - Furniture Ecommerce Template | Home' : $title;
+echo '</title>' ;
 
 ?>
