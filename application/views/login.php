@@ -6,9 +6,14 @@
             <div class="col-12 col-lg-6">
                 <div class="cart-title mt-50">
                     <h2>Login</h2>
+
+                    <?php if(!empty($error)){
+                        echo '<span style="font-size: 18px;color: red; ">'.$error.'</span>';
+                    } ?>
                 </div>
 
                 <div class="cart-table clearfix">
+                    <br>
                     <div class="form">
                         <form class="navbar-form"  action="<?php echo base_url().'login' ?>" method="post">
                             <div class="form-group">
@@ -74,6 +79,17 @@
 
     .callout-closebtn:hover {
         color: lightgrey;
+    }
+
+    @media screen and (max-width: 600px) {
+        .callout {
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+        }
     }
 </style>
                 <div class="callout">

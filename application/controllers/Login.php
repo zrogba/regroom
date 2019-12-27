@@ -55,7 +55,7 @@ class Login extends CI_Controller
 
         // go to the  model and perform all logic there
         $user = $this->login_m->loginUser($userObj);
-        print_r($userObj);die();
+        $this->load->view($user->page, $user);
     }
 
     //validation for incoming request
