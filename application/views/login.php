@@ -39,7 +39,7 @@
                             <hr>
                         </form>
                         <div class="label">
-                            <a href=""> <span style="float: right; font-size: 12px">forgot password?</span></a>
+                            <a href="<?php echo base_url().'reset_password' ?>"> <span style="float: right; font-size: 12px">forgot password?</span></a>
                         </div>
                     </div>
 
