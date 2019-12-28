@@ -6,14 +6,19 @@
             <div class="col-12 col-lg-6">
                 <div class="cart-title mt-50">
                     <h2>Login</h2>
+
+                    <?php if(!empty($error)){
+                        echo '<span style="font-size: 18px;color: red; ">'.$error.'</span>';
+                    } ?>
                 </div>
 
                 <div class="cart-table clearfix">
+                    <br>
                     <div class="form">
                         <form class="navbar-form"  action="<?php echo base_url().'login' ?>" method="post">
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="enter email" required autofocus value="<?php echo $email??null; ?>">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" required autofocus value="<?php echo $email??null; ?>">
                                 <?php if(!empty($emailErr)){
                                     echo '<span style="font-size: 12px;color: red">Invalid email address</span>';
                                 } ?>
@@ -21,7 +26,7 @@
 
                             <div class="form-group">
                                 <label for="password">Password:</label>
-                                <input type="password" class="form-control" id="password" name="password" required placeholder="enter password">
+                                <input type="password" class="form-control" id="password" name="password" required placeholder="Enter password">
                                 <?php if(!empty($passwordErr)){
                                     echo '<span style="font-size: 12px;color: red">Password is required</span>';
                                 } ?>
@@ -34,7 +39,7 @@
                             <hr>
                         </form>
                         <div class="label">
-                            <a href=""> <span style="float: right; font-size: 12px">forgot password?</span></a>
+                            <a href="<?php echo base_url().'reset_password' ?>"> <span style="float: right; font-size: 12px">forgot password?</span></a>
                         </div>
                     </div>
 
@@ -75,12 +80,23 @@
     .callout-closebtn:hover {
         color: lightgrey;
     }
+
+    @media screen and (max-width: 600px) {
+        .callout {
+            visibility: hidden;
+            clear: both;
+            float: left;
+            margin: 10px auto 5px 20px;
+            width: 28%;
+            display: none;
+        }
+    }
 </style>
                 <div class="callout">
                     <div class="callout-header">Don't have an account?</div>
                     <span class="callout-closebtn" onclick="this.parentElement.style.display='none';">×</span>
                     <div class="callout-container">
-                        <p>  Click here to create  an account</p>
+                        <p>  Click here to create  an account </p>
                         <div class="cart-btn mt-100">
                             <a href="cart.html" class="btn amado-btn w-100">Register</a>
                         </div>
