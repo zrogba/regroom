@@ -96,7 +96,7 @@
                     <div class="callout-header">Don't have an account?</div>
                     <span class="callout-closebtn" onclick="this.parentElement.style.display='none';">×</span>
                     <div class="callout-container">
-                        <p>  Click here to create  an account</p>
+                        <p>  Click here to create  an account </p>
                         <div class="cart-btn mt-100">
                             <a href="cart.html" class="btn amado-btn w-100">Register</a>
                         </div>
